@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FFA0AA</color>
+    <color name="green">#A6FFA0</color>
+
+
+    <color name="accent_color_light">#837EAC</color>
+    <color name="accent_color_dark">#8E30FF</color>
+    <color name="accent_color_green">#00C0E2</color>
+    <color name="accent_color_red">#FFC430</color>
+
+    <color name="background_color">@color/white</color>
+
+
+
+
+
+
+
+
+</resources>

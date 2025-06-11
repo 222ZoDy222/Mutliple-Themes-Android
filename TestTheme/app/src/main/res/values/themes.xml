@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TestTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="backgroundColor">@color/white</item>
+
+    </style>
+
+    <style name="Theme.TestTheme" parent="Base.Theme.TestTheme" />
+
+
+
+    <style name="Base.Themes.Light" parent="Base.Theme.TestTheme">
+        <item name="colorPrimary">@color/accent_color_light</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="backgroundColor">@color/background_color</item>
+    </style>
+
+    <style name="Base.Themes.Dark" parent="Base.Theme.TestTheme">
+        <item name="colorPrimary">@color/accent_color_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="backgroundColor">@color/black</item>
+    </style>
+
+    <style name="Base.Themes.Green" parent="Base.Theme.TestTheme">
+        <item name="colorPrimary">@color/accent_color_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="backgroundColor">@color/green</item>
+    </style>
+
+    <style name="Base.Themes.Red" parent="Base.Theme.TestTheme">
+        <item name="colorPrimary">@color/accent_color_red</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="backgroundColor">@color/red</item>
+    </style>
+
+
+    <!-- Transparent theme for transition activity -->
+    <style name="Theme.DarkModeApplication.Transparent" parent="Base.Theme.TestTheme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>
